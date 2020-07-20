@@ -12,5 +12,6 @@ def join_nested_strings(src)
       element_index += 1
     end
     rox_index += 1
-  
+  end
+  new_string
 end
