@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while rox_index < src.count do
     element_index = 0
     while element_index < src[rox_index].count do
-      string += src[rox_index][element_index]
+      if string += src[rox_index][element_index]
       element_index += 1
     end
     rox_index += 1
