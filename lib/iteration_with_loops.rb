@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while element_index < src[rox_index].count do
       if src[rox_index][element_index].class == String
         new_string += src[rox_index][element_index] + ' '
+      end
       element_index += 1
     end
     rox_index += 1
